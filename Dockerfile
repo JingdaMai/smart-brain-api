@@ -1,6 +1,6 @@
 FROM node:8.11.1
 
-WORKDIR /home/mai/Desktop/smart-brain-api
+WORKDIR /c/Users/maiji/Desktop/smart-brain-api
 
 COPY ./ ./
 

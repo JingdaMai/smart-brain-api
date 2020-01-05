@@ -7,4 +7,4 @@ sudo fuser -k 6379/tcp
 
 
 docker-compose down
-docker-compose up
+docker-compose up --build

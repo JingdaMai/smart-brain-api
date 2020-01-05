@@ -1,11 +1,15 @@
-# SmartBrain-api - v2
+# SmartBrain API
 Final project for Udemy course
 
-1. Clone this repo
-2. Run `npm install`
-3. Run `npm start`
-4. You must add your own API key in the `controllers/image.js` file to connect to Clarifai API.
+------
 
-You can grab Clarifai API key [here](https://www.clarifai.com/)
+A docker container that includes back-end server, Redis and PostgreSQL databases.
 
-** Make sure you use postgreSQL instead of mySQL for this code base.
+Redis is used to store token information and PostgreSQL is used to store log-in and user information in two tables.
+
+## Usage
+
+1. Clone this repository to Desktop
+
+2. Run the start_docker.sh file inside the repository
+

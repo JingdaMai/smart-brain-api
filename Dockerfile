@@ -1,9 +1,13 @@
 FROM node:8.11.1
 
-WORKDIR /home/mai/Desktop/smart-brain-api
+ADD ./package.json /tmp/
 
-COPY ./ ./
+RUN cd /tmp/ && npm install
 
-RUN npm install
+ADD ./ /code/
+
+RUN cp -r /tmp/node_modules/ /code/
+
+WORKDIR /code
 
 CMD ["/bin/bash"]

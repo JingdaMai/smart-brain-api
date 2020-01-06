@@ -35,6 +35,6 @@ app.post('/imageurl', auth.requireAuth, (req, res) => { image.handleApiCall(req,
 
 app.post('/signout', signout.signoutAuthentication())
 
-app.listen(3000, ()=> {
+app.listen(process.env.PORT || 3000, ()=> {
   console.log('app is running on port 3000');
 })

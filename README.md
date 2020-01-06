@@ -1,6 +1,9 @@
 # SmartBrain API
+
 Final project for Udemy course
+
 Added JWT to register endpoint
+
 Added new columns to users Table
 ------
 ## Development

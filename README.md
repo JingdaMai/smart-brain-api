@@ -6,6 +6,8 @@ Added JWT to register endpoint
 
 Added new columns to users Table
 
+Added Signout endpoint to remove token from the browser's sessionStorage and Redis.
+
 ------
 ## Development
 
